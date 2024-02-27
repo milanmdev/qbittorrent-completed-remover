@@ -1,0 +1,9 @@
+version: "3.4"
+services:
+  qbittorrent-completed-remover:
+    restart: always
+    image: ghcr.io/milanmdev/qbittorrent-completed-remover
+    environment:
+      - USERNAME=admin
+      - PASSWORD=adminadmin
+      - CLIENT=http://127.0.0.1:8080
