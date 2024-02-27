@@ -15,7 +15,7 @@ const client = new qBittorrentClient(
 console.log("Starting the removal timer (running every 5 minutes)");
 setInterval(function () {
   main();
-}, 60 * 1000);
+}, 5 * 60 * 1000);
 
 async function main() {
   client.auth.login(credentials.username, credentials.password); // Be sure that the client is still logged in when running the main function
