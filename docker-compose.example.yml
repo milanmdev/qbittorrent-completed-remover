@@ -1,7 +1,6 @@
-version: "3.4"
 services:
   qbittorrent-completed-remover:
-    restart: always
+    restart: unless-stopped
     image: ghcr.io/milanmdev/qbittorrent-completed-remover
     environment:
       - USERNAME=admin

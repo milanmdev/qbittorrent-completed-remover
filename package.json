@@ -1,14 +1,15 @@
 {
   "name": "qbittorrent-completed-remover",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.ts",
   "scripts": {
     "start": "tsx ./src/index.ts",
-    "dev": "tsx --watch ./src/index.ts"
+    "dev": "tsx --watch ./src/index.ts",
+    "docker": "bash ./build.sh"
   },
   "dependencies": {
     "@robertklep/qbittorrent": "^1.0.1",
-    "@types/node": "^20.11.20",
+    "@types/node": "22.5.0",
     "dotenv": "^16.3.1"
   },
   "devDependencies": {
