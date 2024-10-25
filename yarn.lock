@@ -973,9 +973,9 @@ graphemer@^1.4.0:
   integrity sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==
 
 gts@^6.0.0:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/gts/-/gts-6.0.1.tgz#bd0d8fce9cfbd0d7537059e05ff980aff8de6fce"
-  integrity sha512-OizBdT0af8EzAh4F+XqLRa7ie6cGonN+Ip+dE9cz+24OyMdp+GQC739h3hVJWFVWcBsQCMMuHsQz9t1eWK795Q==
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/gts/-/gts-6.0.2.tgz#f7ff83fd786de92384740da4409f954261a0a62c"
+  integrity sha512-lp9+eDzzm6TYqiBpgGY00EInxBHFTJiU5brsVp11qXCJEw7Q6WNNngja0spZeqSFWSquaRuHQUuWxdZLaxnKmw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.62.0"
     "@typescript-eslint/parser" "5.62.0"
