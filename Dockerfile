@@ -1,10 +1,15 @@
-FROM node:lts
+FROM node:lts-slim
 
-LABEL org.opencontainers.image.description "Remove completed (paused) qBittorrent torrents"
-LABEL org.opencontainers.image.source "https://github.com/milanmdev/qbittorrent-completed-remover"
+LABEL org.opencontainers.image.description="Remove completed (paused/stopped) qBittorrent torrents"
+LABEL org.opencontainers.image.source="https://github.com/milanmdev/qbittorrent-completed-remover"
 
+ENV PNPM_HOME="/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
+
+RUN corepack enable
 WORKDIR /build
-COPY package.json yarn.lock ./
-RUN yarn install --frozen-lockfile
 COPY . .
-CMD yarn start
+
+RUN pnpm install --frozen-lockfile
+
+CMD ["pnpm", "start"]
