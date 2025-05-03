@@ -1,6 +1,6 @@
 # qbittorrent-completed-remover
 
-Remove completed (paused) qBittorrent torrents
+Remove completed (paused/stopped) qBittorrent torrents
 
 ## Why? (Use Case)
 
