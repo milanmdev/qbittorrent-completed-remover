@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@ctrl/qbittorrent':
         specifier: ^9.6.0
-        version: 9.7.0
+        version: 9.8.0
       '@types/node':
         specifier: 22.18.3
         version: 22.18.3
@@ -38,22 +38,22 @@ packages:
     resolution: {integrity: sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==}
     engines: {node: '>=6.9.0'}
 
-  '@ctrl/magnet-link@4.0.2':
-    resolution: {integrity: sha512-wENP7LH4BmCjz+gXVq7Nzz20zMjY/huuG7aDk/yu/LhFdC84e/l8222rCIAo0lwhU451lFcJKLcOmtG6TNrBAQ==}
+  '@ctrl/magnet-link@4.1.0':
+    resolution: {integrity: sha512-Diw6HbUwbwhPOp0wEcJbZaSo5L/Wf1RCVRUsA07fS1v9lfGr/x+u0HRvbhQX0VGP8uy6mUckOpY2VpEWh5SEkg==}
     engines: {node: '>=18'}
 
-  '@ctrl/qbittorrent@9.7.0':
-    resolution: {integrity: sha512-yUBqe6knrK6+vx57D4tpETw0RcPGWLnDR1UNd8rHttmffIyxE4LX7SymyS48TR4Bcx6wE5SqzulV0JXd1aKlXg==}
+  '@ctrl/qbittorrent@9.8.0':
+    resolution: {integrity: sha512-WuLUnE38hR1cCB2Z/oeTAhf0jycl3XD2cUidFybz7iLrmJdLjFeYO3Mk5n1fqUTnmIyuLqO6vJN+RkAW1vI7pA==}
     engines: {node: '>=18'}
 
-  '@ctrl/shared-torrent@6.3.0':
-    resolution: {integrity: sha512-rhgN/tXQFIh6ujFE5wXVj1hBftb2tLmAYt5CVfxncKtS38AlPAqyiwg2VOWrWpq/gL+eRlP0uWTyt5yEohxIzw==}
+  '@ctrl/shared-torrent@6.4.0':
+    resolution: {integrity: sha512-VUqEkR6zLJfRarNVLHPT4jmbK+4CmxI5pOjZ/cst5UJ1VhAMadGofa2siHVsIYOYtQ+C/Letj8SLmKbqRmOwXw==}
     engines: {node: '>=18'}
     peerDependencies:
       ofetch: ^1.4.1
 
-  '@ctrl/torrent-file@4.1.0':
-    resolution: {integrity: sha512-mC6HdmCrRhhwpthM+OboJvGIywVR05IbdhVSBkfbGslzbQk2xNnx4UOKljV/x2YI2M1DDF3F3o0paIiYd5O0Og==}
+  '@ctrl/torrent-file@4.2.0':
+    resolution: {integrity: sha512-GkM+KWolUIH/mDQMWLOI9x50JMY7Xg5p3U5POseI6WbNvdihppAKjvrYxpo3BRLmiYVfZhBOyCoq0vFbZT+Vkg==}
     engines: {node: '>=18'}
 
   '@esbuild/aix-ppc64@0.25.9':
@@ -1236,16 +1236,16 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.27.1': {}
 
-  '@ctrl/magnet-link@4.0.2':
+  '@ctrl/magnet-link@4.1.0':
     dependencies:
       rfc4648: 1.5.4
       uint8array-extras: 1.5.0
 
-  '@ctrl/qbittorrent@9.7.0':
+  '@ctrl/qbittorrent@9.8.0':
     dependencies:
-      '@ctrl/magnet-link': 4.0.2
-      '@ctrl/shared-torrent': 6.3.0(ofetch@1.4.1)
-      '@ctrl/torrent-file': 4.1.0
+      '@ctrl/magnet-link': 4.1.0
+      '@ctrl/shared-torrent': 6.4.0(ofetch@1.4.1)
+      '@ctrl/torrent-file': 4.2.0
       cookie: 1.0.2
       node-fetch-native: 1.6.7
       ofetch: 1.4.1
@@ -1253,11 +1253,11 @@ snapshots:
       ufo: 1.6.1
       uint8array-extras: 1.5.0
 
-  '@ctrl/shared-torrent@6.3.0(ofetch@1.4.1)':
+  '@ctrl/shared-torrent@6.4.0(ofetch@1.4.1)':
     dependencies:
       ofetch: 1.4.1
 
-  '@ctrl/torrent-file@4.1.0':
+  '@ctrl/torrent-file@4.2.0':
     dependencies:
       uint8array-extras: 1.5.0
 
