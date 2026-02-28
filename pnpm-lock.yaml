@@ -12,8 +12,8 @@ importers:
         specifier: ^9.6.0
         version: 9.11.2
       '@types/node':
-        specifier: 24.10.15
-        version: 24.10.15
+        specifier: 24.11.0
+        version: 24.11.0
       dotenv:
         specifier: ^17.0.0
         version: 17.3.1
@@ -285,8 +285,8 @@ packages:
   '@types/minimist@1.2.5':
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
 
-  '@types/node@24.10.15':
-    resolution: {integrity: sha512-BgjLoRuSr0MTI5wA6gMw9Xy0sFudAaUuvrnjgGx9wZ522fYYLA5SYJ+1Y30vTcJEG+DRCyDHx/gzQVfofYzSdg==}
+  '@types/node@24.11.0':
+    resolution: {integrity: sha512-fPxQqz4VTgPI/IQ+lj9r0h+fDR66bzoeMGHp8ASee+32OSGIkeASsoZuJixsQoVef1QJbeubcPBxKk22QVoWdw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1347,7 +1347,7 @@ snapshots:
 
   '@types/minimist@1.2.5': {}
 
-  '@types/node@24.10.15':
+  '@types/node@24.11.0':
     dependencies:
       undici-types: 7.16.0
 
