@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@ctrl/qbittorrent':
         specifier: ^9.6.0
-        version: 9.11.2
+        version: 9.12.1
       '@types/node':
         specifier: 24.12.2
         version: 24.12.2
@@ -42,8 +42,8 @@ packages:
     resolution: {integrity: sha512-fEfw3AeQ8XhVsNzogZrnyTNDD/Tpbfl3ybHsspBMvj0UKctabApv1JV3JJUQG/hoX6hiO+DtQS+acN7dMPX01g==}
     engines: {node: '>20'}
 
-  '@ctrl/qbittorrent@9.11.2':
-    resolution: {integrity: sha512-ZIayGA72R4rzXaCcEYrxBwOMYZ1iT0EABJPwjTkwaO3VYRBBltwHSAxNfMWaz4GVmqLA12/WCfx+IPXBN9Gtxg==}
+  '@ctrl/qbittorrent@9.12.1':
+    resolution: {integrity: sha512-6rSTWPV0UwehqLCyBLh9Avw5FPA1nh8SO+aTxrEXu6okZPjz+3tn7EGZdLhOfy+6poIc7miX/1g1VAOVo3JSTA==}
     engines: {node: '>=18'}
 
   '@ctrl/shared-torrent@6.5.1':
@@ -1110,8 +1110,8 @@ packages:
     resolution: {integrity: sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==}
     engines: {node: '>=8'}
 
-  type-fest@5.4.4:
-    resolution: {integrity: sha512-JnTrzGu+zPV3aXIUhnyWJj4z/wigMsdYajGLIYakqyOW1nPllzXEJee0QQbHj+CTIQtXGlAjuK0UY+2xTyjVAw==}
+  type-fest@5.6.0:
+    resolution: {integrity: sha512-8ZiHFm91orbSAe2PSAiSVBVko18pbhbiB3U9GglSzF/zCGkR+rxpHx6sEMCUm4kxY4LjDIUGgCfUMtwfZfjfUA==}
     engines: {node: '>=20'}
 
   typescript-eslint@8.50.0:
@@ -1126,8 +1126,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ufo@1.6.3:
-    resolution: {integrity: sha512-yDJTmhydvl5lJzBmy/hyOAA0d+aqCBuwl818haVdYCRrWV84o7YyeVm4QlVHStqNrrJSTb6jKuFAVqAFsr+K3Q==}
+  ufo@1.6.4:
+    resolution: {integrity: sha512-JFNbkD1Svwe0KvGi8GOeLcP4kAWQ609twvCdcHxq1oSL8svv39ZuSvajcD8B+5D0eL4+s1Is2D/O6KN3qcTeRA==}
 
   uint8array-extras@1.5.0:
     resolution: {integrity: sha512-rvKSBiC5zqCCiDZ9kAOszZcDvdAHwwIKJG33Ykj43OKcWsnmcBRL09YTU4nOeHZ8Y2a7l1MgTd08SBe9A8Qj6A==}
@@ -1181,7 +1181,7 @@ snapshots:
       rfc4648: 1.5.4
       uint8array-extras: 1.5.0
 
-  '@ctrl/qbittorrent@9.11.2':
+  '@ctrl/qbittorrent@9.12.1':
     dependencies:
       '@ctrl/magnet-link': 4.3.0
       '@ctrl/shared-torrent': 6.5.1(ofetch@1.5.1)
@@ -1189,8 +1189,8 @@ snapshots:
       cookie: 1.1.1
       node-fetch-native: 1.6.7
       ofetch: 1.5.1
-      type-fest: 5.4.4
-      ufo: 1.6.3
+      type-fest: 5.6.0
+      ufo: 1.6.4
       uint8array-extras: 1.5.0
 
   '@ctrl/shared-torrent@6.5.1(ofetch@1.5.1)':
@@ -1975,7 +1975,7 @@ snapshots:
     dependencies:
       destr: 2.0.5
       node-fetch-native: 1.6.7
-      ufo: 1.6.3
+      ufo: 1.6.4
 
   onetime@5.1.2:
     dependencies:
@@ -2189,7 +2189,7 @@ snapshots:
 
   type-fest@0.8.1: {}
 
-  type-fest@5.4.4:
+  type-fest@5.6.0:
     dependencies:
       tagged-tag: 1.0.0
 
@@ -2206,7 +2206,7 @@ snapshots:
 
   typescript@6.0.3: {}
 
-  ufo@1.6.3: {}
+  ufo@1.6.4: {}
 
   uint8array-extras@1.5.0: {}
 
