@@ -1,5 +1,9 @@
-import "dotenv/config";
+import dotenv from "dotenv";
 import { QBittorrent } from "@ctrl/qbittorrent";
+
+dotenv.config({
+  override: true,
+});
 
 let credentials = {
   username: process.env.USERNAME || "admin",
@@ -18,7 +22,7 @@ setInterval(
   function () {
     main();
   },
-  5 * 60 * 1000
+  5 * 60 * 1000,
 );
 
 async function main() {
@@ -29,7 +33,7 @@ async function main() {
       console.log("Currently active torrents:");
       for (let torrent of torrents) {
         console.log(
-          `- \"${torrent.name}\" (${torrent.state}) - ${torrent.amount_left} bytes left`
+          `- \"${torrent.name}\" (${torrent.state}) - ${torrent.amount_left} bytes left`,
         );
       }
     } else {

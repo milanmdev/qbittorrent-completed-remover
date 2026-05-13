@@ -1,14 +1,17 @@
 {
   "extends": "gts/tsconfig-google",
   "compilerOptions": {
+    "types": ["node"],
     "lib": ["ESNext"],
     "outDir": "lib",
     "removeComments": true,
     "target": "ES6",
-    "baseUrl": "./",
+    "paths": {
+      "*": ["./*"]
+    },
     "esModuleInterop": true,
-    "moduleResolution": "node",
-    "paths": {},
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
     "sourceMap": true,
     "sourceRoot": "/",
     "alwaysStrict": true,
@@ -17,8 +20,9 @@
     "strictNullChecks": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "resolveJsonModule": true
   },
-  "include": ["./**/*.ts"],
+  "include": ["./**/*.ts", "./**/*.json"],
   "exclude": ["node_modules/**/*"]
 }

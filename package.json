@@ -1,21 +1,22 @@
 {
   "name": "qbittorrent-completed-remover",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.ts",
   "scripts": {
     "start": "tsx ./src/index.ts",
     "dev": "tsx --watch ./src/index.ts",
-    "docker": "bash ./build.sh"
+    "docker": "bash ./build.sh",
+    "upgrade-deps": "pnpm upgrade --latest"
   },
   "dependencies": {
-    "@ctrl/qbittorrent": "^9.6.0",
-    "@types/node": "24.12.3",
-    "dotenv": "^17.0.0"
+    "@ctrl/qbittorrent": "^9.12.1",
+    "dotenv": "^17.4.2"
   },
   "devDependencies": {
+    "@types/node": "^25.7.0",
     "gts": "^7.0.0",
-    "tsx": "^4.7.1",
-    "typescript": "^6.0.0"
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
   },
   "typeRoots": [
     "./node_modules/@types",
