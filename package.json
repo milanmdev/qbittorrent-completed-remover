@@ -9,14 +9,14 @@
     "upgrade-deps": "pnpm upgrade --latest"
   },
   "dependencies": {
-    "@ctrl/qbittorrent": "^9.12.2",
+    "@ctrl/qbittorrent": "^9.14.0",
     "dotenv": "^17.4.2"
   },
   "devDependencies": {
-    "@types/node": "^25.9.1",
+    "@types/node": "^26.1.1",
     "gts": "^7.0.0",
-    "tsx": "^4.22.3",
-    "typescript": "^6.0.3"
+    "tsx": "^4.23.0",
+    "typescript": "^7.0.2"
   },
   "typeRoots": [
     "./node_modules/@types",
