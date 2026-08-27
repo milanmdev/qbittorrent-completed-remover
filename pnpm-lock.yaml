@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@ctrl/qbittorrent':
         specifier: ^9.14.0
-        version: 9.14.0
+        version: 9.15.0
       dotenv:
         specifier: ^17.4.2
         version: 17.4.2
@@ -38,13 +38,13 @@ packages:
     resolution: {integrity: sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==}
     engines: {node: '>=6.9.0'}
 
-  '@ctrl/magnet-link@4.3.0':
-    resolution: {integrity: sha512-fEfw3AeQ8XhVsNzogZrnyTNDD/Tpbfl3ybHsspBMvj0UKctabApv1JV3JJUQG/hoX6hiO+DtQS+acN7dMPX01g==}
+  '@ctrl/magnet-link@5.0.0':
+    resolution: {integrity: sha512-bu8ldZq8lzAyddqykTB/FnDFFPEYus+Eho/GQEydQxupvUS6osOSzBCphuyyoDmMqGHwVw3Uob6oPiOQ+w075A==}
     engines: {node: '>20'}
 
-  '@ctrl/qbittorrent@9.14.0':
-    resolution: {integrity: sha512-Ye1yX6zahOugx6RHQoiBkE8Od21RmO3i1gbSrOSYtoDIqr+9Utz8Rf6FkY7IEKB8JbeWjwuEhQt23usmhcFt5Q==}
-    engines: {node: '>=18'}
+  '@ctrl/qbittorrent@9.15.0':
+    resolution: {integrity: sha512-3dNCWH3/nkKK4s0cIcT8Acfx2sB3AmahvxOgnjutPFqU+c9vxZ+pJEhjFqcOg4uZI+d1O9cV8cdX4S5U04vCiQ==}
+    engines: {node: '>=22'}
 
   '@ctrl/shared-torrent@6.5.1':
     resolution: {integrity: sha512-ZdItYUwzHOu+8s416oRIEwvqDUC3aON4Lv/Ev4H5KxEkbjfkQiaONS/7+jos2+yJWleiXlRdBsoIpZR5Cd1UHQ==}
@@ -52,8 +52,8 @@ packages:
     peerDependencies:
       ofetch: ^1.5.0
 
-  '@ctrl/torrent-file@4.5.0':
-    resolution: {integrity: sha512-ECzdbioAXLx7E3w/G9wMBz64K7MD5gRH6A2ypDcax+3cDmELdlKQfJIzX7q+if7E2TO+nbcabx76g0su3t01mQ==}
+  '@ctrl/torrent-file@4.5.1':
+    resolution: {integrity: sha512-DTwTKOs3p8vNAr9EjtjFicjfsQFcwooB3VOqOxQKY2E+Ptsio8uKDksBIX4hZheywVhDyI43Z2e5JkCGGpeA4w==}
     engines: {node: '>20'}
 
   '@esbuild/aix-ppc64@0.28.2':
@@ -551,9 +551,9 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  cookie@1.1.1:
-    resolution: {integrity: sha512-ei8Aos7ja0weRpFzJnEA9UHJ/7XQmqglbRwnf2ATjcB9Wq874VKH9kfjjirM6UhU2/E5fFYadylyhFldcqSidQ==}
-    engines: {node: '>=18'}
+  cookie@2.0.1:
+    resolution: {integrity: sha512-yuToqVvRrj6pfDXREyQAAv8SkAEk/8GS3jQRTiUMm66TVtBYmqQeoEjL2Lmq8Rpo6271vH76InTChTitEAm65w==}
+    engines: {node: '>=22'}
 
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
@@ -670,6 +670,7 @@ packages:
   eslint@9.39.4:
     resolution: {integrity: sha512-XoMjdBOwe/esVgEvLmNsD3IRHkm7fbKIUGvrleloJXUZgDHig2IPWNniv+GwjyJXzuNqVjlr5+4yVUZjycJwfQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -1307,17 +1308,17 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.29.7': {}
 
-  '@ctrl/magnet-link@4.3.0':
+  '@ctrl/magnet-link@5.0.0':
     dependencies:
       rfc4648: 1.5.4
       uint8array-extras: 1.5.0
 
-  '@ctrl/qbittorrent@9.14.0':
+  '@ctrl/qbittorrent@9.15.0':
     dependencies:
-      '@ctrl/magnet-link': 4.3.0
+      '@ctrl/magnet-link': 5.0.0
       '@ctrl/shared-torrent': 6.5.1(ofetch@1.5.1)
-      '@ctrl/torrent-file': 4.5.0
-      cookie: 1.1.1
+      '@ctrl/torrent-file': 4.5.1
+      cookie: 2.0.1
       node-fetch-native: 1.6.7
       ofetch: 1.5.1
       type-fest: 5.8.0
@@ -1328,7 +1329,7 @@ snapshots:
     dependencies:
       ofetch: 1.5.1
 
-  '@ctrl/torrent-file@4.5.0': {}
+  '@ctrl/torrent-file@4.5.1': {}
 
   '@esbuild/aix-ppc64@0.28.2':
     optional: true
@@ -1706,7 +1707,7 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  cookie@1.1.1: {}
+  cookie@2.0.1: {}
 
   cross-spawn@7.0.6:
     dependencies:
