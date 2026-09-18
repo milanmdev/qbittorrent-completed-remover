@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@ctrl/qbittorrent": "^9.15.0",
-    "dotenv": "^17.4.2"
+    "dotenv": "^18.0.0"
   },
   "devDependencies": {
     "@types/node": "^26.4.1",
