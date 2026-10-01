@@ -171,7 +171,7 @@ importers:
         version: 9.16.0
       dotenv:
         specifier: ^18.0.0
-        version: 18.0.4
+        version: 18.0.5
     devDependencies:
       '@types/node':
         specifier: ^26.4.1
@@ -740,8 +740,8 @@ packages:
   destr@2.0.5:
     resolution: {integrity: sha512-ugFTXCtDZunbzasqBxrK93Ik/DRYsO6S/fedkWEMKqt04xZ4csmnmwGDBAb07QWNaGMAmnTIemsYZCksjATwsA==}
 
-  dotenv@18.0.4:
-    resolution: {integrity: sha512-jGt9uI5BIxpVO15kvy+iEFqNAwxYClKWnkptLjSNPnFLC003Imd0ofr3aEVsbpHdSBdSsbcApNIlz4nbyGMwdA==}
+  dotenv@18.0.5:
+    resolution: {integrity: sha512-aBrGvt6KhjxbEnatqMWOMidftwsrCiCvqh1yNIGB9QyF0J+VcWkKDMsvYOEm7ZS82oiV+BT1sTOtIlAmUlTpwQ==}
     engines: {node: '>=12'}
     hasBin: true
 
@@ -1891,7 +1891,7 @@ snapshots:
 
   destr@2.0.5: {}
 
-  dotenv@18.0.4: {}
+  dotenv@18.0.5: {}
 
   emoji-regex@8.0.0: {}
 
