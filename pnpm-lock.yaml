@@ -168,7 +168,7 @@ importers:
     dependencies:
       '@ctrl/qbittorrent':
         specifier: ^9.15.0
-        version: 9.16.0
+        version: 9.16.1
       dotenv:
         specifier: ^18.0.0
         version: 18.0.5
@@ -196,22 +196,22 @@ packages:
     resolution: {integrity: sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==}
     engines: {node: '>=6.9.0'}
 
-  '@ctrl/magnet-link@5.0.0':
-    resolution: {integrity: sha512-bu8ldZq8lzAyddqykTB/FnDFFPEYus+Eho/GQEydQxupvUS6osOSzBCphuyyoDmMqGHwVw3Uob6oPiOQ+w075A==}
+  '@ctrl/magnet-link@5.0.1':
+    resolution: {integrity: sha512-TQb384eD73RDT3VumJ9TRP1/UoLYhhCKMkgEOkwT498d9YDPbfAYb/7DhmDx1sxzabKcOZKfFCmxioCcbR4R2w==}
     engines: {node: '>20'}
 
-  '@ctrl/qbittorrent@9.16.0':
-    resolution: {integrity: sha512-msgcBmepHyWkIMKoq51jmB8PWKYdnSGCNJKFoSHMNHgWXomBsvqnWgDDMbRqvpuwkiGnYqnkwd2d3XKi4inyig==}
+  '@ctrl/qbittorrent@9.16.1':
+    resolution: {integrity: sha512-sSv1KHdgKDqkJp2vTpLl10lDoqSC3B2qRvx2Ns/lF8NcCZEyBlvZ+g4DRTrVstIA/DaaXWGryDmcLZBz+tJYiQ==}
     engines: {node: '>=22'}
 
-  '@ctrl/shared-torrent@6.5.1':
-    resolution: {integrity: sha512-ZdItYUwzHOu+8s416oRIEwvqDUC3aON4Lv/Ev4H5KxEkbjfkQiaONS/7+jos2+yJWleiXlRdBsoIpZR5Cd1UHQ==}
+  '@ctrl/shared-torrent@6.5.2':
+    resolution: {integrity: sha512-KuNeuBcybf/LZsnMykB9I5SCydyI84s842FJT5oNrUNgGkeO0yn5mbMt/xSBtnCtqYFxBStQajNkmJ1PXtV1RQ==}
     engines: {node: '>20'}
     peerDependencies:
       ofetch: ^1.5.0
 
-  '@ctrl/torrent-file@4.5.1':
-    resolution: {integrity: sha512-DTwTKOs3p8vNAr9EjtjFicjfsQFcwooB3VOqOxQKY2E+Ptsio8uKDksBIX4hZheywVhDyI43Z2e5JkCGGpeA4w==}
+  '@ctrl/torrent-file@4.5.2':
+    resolution: {integrity: sha512-jCxALcowJolp0L5FDEfk2yRqAAydUY5WsgwbsO1OuNinyG/tvNieTWhMH2fk5NvW1gsVsLSt3eJI6vbLj7bLsw==}
     engines: {node: '>20'}
 
   '@esbuild/aix-ppc64@0.28.2':
@@ -1401,8 +1401,8 @@ packages:
     resolution: {integrity: sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==}
     engines: {node: '>=8'}
 
-  type-fest@5.9.0:
-    resolution: {integrity: sha512-yANm3Jr3GiJ1qgJlxGAVxTOIcEOk1rhQHamlXtnrCK7EHP4HeM9OGxtMg/W7HFdrVzw/ZWJKGVIJusVH85sLtw==}
+  type-fest@5.10.0:
+    resolution: {integrity: sha512-NoSdpq/WEiAg5sjmBkmV/hfxv6HJH4NqPNrqjtSO5CwRmpsDfaf4begxW34KdJykH/l1yHtwBWQkCRdoXO8mPA==}
     engines: {node: '>=20'}
 
   typescript-eslint@8.69.0:
@@ -1420,8 +1420,8 @@ packages:
   ufo@1.6.4:
     resolution: {integrity: sha512-JFNbkD1Svwe0KvGi8GOeLcP4kAWQ609twvCdcHxq1oSL8svv39ZuSvajcD8B+5D0eL4+s1Is2D/O6KN3qcTeRA==}
 
-  uint8array-extras@1.5.0:
-    resolution: {integrity: sha512-rvKSBiC5zqCCiDZ9kAOszZcDvdAHwwIKJG33Ykj43OKcWsnmcBRL09YTU4nOeHZ8Y2a7l1MgTd08SBe9A8Qj6A==}
+  uint8array-extras@1.6.0:
+    resolution: {integrity: sha512-8iAasVS4wUx0gPLjH8Xtz2PeDzTSiy8QiLGu2DT3X5GU+egFEQhpnbtkehbAwjvDcxIERmCYcysiODFmE3Ud0Q==}
     engines: {node: '>=18'}
 
   undici-types@8.9.0:
@@ -1467,28 +1467,28 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.29.7': {}
 
-  '@ctrl/magnet-link@5.0.0':
+  '@ctrl/magnet-link@5.0.1':
     dependencies:
       rfc4648: 1.5.4
-      uint8array-extras: 1.5.0
+      uint8array-extras: 1.6.0
 
-  '@ctrl/qbittorrent@9.16.0':
+  '@ctrl/qbittorrent@9.16.1':
     dependencies:
-      '@ctrl/magnet-link': 5.0.0
-      '@ctrl/shared-torrent': 6.5.1(ofetch@1.5.1)
-      '@ctrl/torrent-file': 4.5.1
+      '@ctrl/magnet-link': 5.0.1
+      '@ctrl/shared-torrent': 6.5.2(ofetch@1.5.1)
+      '@ctrl/torrent-file': 4.5.2
       cookie: 2.0.1
       node-fetch-native: 1.6.7
       ofetch: 1.5.1
-      type-fest: 5.9.0
+      type-fest: 5.10.0
       ufo: 1.6.4
-      uint8array-extras: 1.5.0
+      uint8array-extras: 1.6.0
 
-  '@ctrl/shared-torrent@6.5.1(ofetch@1.5.1)':
+  '@ctrl/shared-torrent@6.5.2(ofetch@1.5.1)':
     dependencies:
       ofetch: 1.5.1
 
-  '@ctrl/torrent-file@4.5.1': {}
+  '@ctrl/torrent-file@4.5.2': {}
 
   '@esbuild/aix-ppc64@0.28.2':
     optional: true
@@ -2548,7 +2548,7 @@ snapshots:
 
   type-fest@0.8.1: {}
 
-  type-fest@5.9.0:
+  type-fest@5.10.0:
     dependencies:
       tagged-tag: 1.0.0
 
@@ -2588,7 +2588,7 @@ snapshots:
 
   ufo@1.6.4: {}
 
-  uint8array-extras@1.5.0: {}
+  uint8array-extras@1.6.0: {}
 
   undici-types@8.9.0: {}
 
