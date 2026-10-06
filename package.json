@@ -9,7 +9,7 @@
     "upgrade-deps": "pnpm upgrade --latest"
   },
   "dependencies": {
-    "@ctrl/qbittorrent": "^9.15.0",
+    "@ctrl/qbittorrent": "^10.0.0",
     "dotenv": "^18.0.0"
   },
   "devDependencies": {
